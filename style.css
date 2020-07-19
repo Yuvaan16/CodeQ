@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background: #000046;  
+    background: linear-gradient(to right, #00369b, #000046);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    font-size: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    position: sticky;
+    top:0;
+    color: white;
+}
+
+#nav-ul{
+    margin-left: 30vw;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-ul>li{
+    margin-right: 4vw;
+    padding: 0.3vh;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-li:hover{
+    border-bottom: 3px solid rgb(80, 80, 223);
+    transition: 0.2s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+header{
+    font-size: 4vh;
+    color: white;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ), url(home-office-336377_960_720.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 95vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(net-bg.jpg);
+    color: rgb(209, 209, 209);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.5vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.container-child{
+    flex: 1;
+    padding: 5vh;
+}
+
+.text{
+    overflow-y: hidden;
+    
+}
+
+
+
+#spec-head{
+    font-size: 5vh;
+    text-align: center;
+    padding: 5vh;
+}
+
+#feature-1{
+    height: 95vh;
+    background:linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),url(feature-1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3vh;
+}
+
+#feature-2{
+    height: 95vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(feature-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+#feature-3{
+    height: 95vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(feature-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3vh;
+}
+
+footer{
+    height: 40vh;
+    background: rgb(26, 26, 26);
+    color: white;
+    font-size: 2.5vh;
+
+}
+
+footer h2{
+    font-size: 5vh;
+    padding: 4vh;
+    text-align: center;
+}
+
+footer p{
+    padding: 1vh;
+    font-size: 3vh;
+    
+}

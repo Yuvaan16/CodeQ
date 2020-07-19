@@ -7,7 +7,7 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #b83dba;
+  background-color: black;
   padding: 20px 20px;
 }
 
@@ -23,8 +23,8 @@ body {
 }
 
 .header a:hover {
-  background-color: #8cfffb;
-  color: black;
+  color: white;
+  color: grey;
 }
 
   .header-right {

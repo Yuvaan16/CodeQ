@@ -1,84 +1,50 @@
-
-<!DOCTYPE html>
 <html>
-<head><title>CodeQ</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Monospace;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #b83dba;
-  padding: 20px 20px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 0px;
-  border-radius: 4px;
-}
-
-.header a:hover {
-  background-color: #8cfffb;
-  color: black;
-}
-
-  .header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
- 
-  h1 {
-  font-size: 200px;
-  font-family:monospace;
-  margin:0;
-  position:absolute;
-  t
-  
-</style>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<div class="header">
-<a align="left">CodeQ</a> 
-  <div class="header-right">
+  <div id="login_div" class="main-div">
+    <h3>Firebase Web login Example</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
 
-      <a href="#home">Home</a>
-      <a href="#vision">Vision</a>
-      <a href="#about">About Us</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About Us</a>
-
+    <button onclick="login()">Login to Account</button>
   </div>
-</div>
 
-<style>
-op: 50;
-}
-</style>
-<h1 align="center">
-Home</h1>
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
 
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC4SI-jCsroa0-1i571mma5WdZpeylr7Io",
+    authDomain: "codeq-c16b9.firebaseapp.com",
+    databaseURL: "https://codeq-c16b9.firebaseio.com",
+    projectId: "codeq-c16b9",
+    storageBucket: "codeq-c16b9.appspot.com",
+    messagingSenderId: "836511678778",
+    appId: "1:836511678778:web:f80608762e32fed5081003",
+    measurementId: "G-W1B7G2787G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 </body>
 </html>

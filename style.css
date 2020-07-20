@@ -10,10 +10,6 @@ body {
   background-color: black;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 #nav{
     background-color: black;
     position: fixed;
@@ -22,8 +18,8 @@ html{
     justify-content: space-evenly;
     flex: 1;
     font-size: 3vh;
-    padding-top: .1vh;
-    padding-bottom: .1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     position: sticky;
     top:0;
     color: white;
@@ -87,9 +83,9 @@ section{
 #spec-head{
     background-color: cyan;
     color: black;
-    font-size: 5vh;
+    font-size: vh;
     text-align: center;
-    padding: 0.1vh;
+    padding: 3vh;
 }
 
 #feature-1{

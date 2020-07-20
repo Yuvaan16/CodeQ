@@ -59,7 +59,7 @@ html{
 }
 
 section{
-    height: 95vh;
+    height: 80vh;
     background-color: #212121;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ section{
 }
 
 #feature-1{
-    height: 90vh;
+    height: 50vh;
     background-color: #121212;
     background-size: cover;
     background-repeat: no-repeat;

@@ -112,6 +112,7 @@ section{
     font-size: 3.5vh;
     overflow: hidden;
     color: white;
+    text-align:center;
 }
 
 .footer {
@@ -122,4 +123,18 @@ section{
    background-color: black;
    color: white;
    text-align: center;
+}
+
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-style: monospace;
 }

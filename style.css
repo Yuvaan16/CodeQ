@@ -1,0 +1,125 @@
+* {box-sizing: border-box;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  margin: 0;
+  font-family: Monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    font-size: 3vh;
+    padding-top: .1vh;
+    padding-bottom: .1vh;
+    position: sticky;
+    top:0;
+    color: white;
+}
+
+#nav-ul{
+    margin-left: 30vw;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-ul>li{
+    margin-right: 4vw;
+    padding: 0.3vh;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-li a:hover {
+  color: purple;
+}
+
+.nav-li a {
+  float: left;
+  color: cyan;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 0px;
+  border-radius: 4px;
+}
+
+section{
+    height: 95vh;
+    background-color: #212121;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.5vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.container-child{
+    flex: 1;
+    padding: 5vh;
+}
+
+.text{
+    overflow-y: hidden;
+    color: white;
+    font-family: Monospace;
+    
+}
+
+#spec-head{
+    background-color: cyan;
+    color: black;
+    font-size: 5vh;
+    text-align: center;
+    padding: 0.1vh;
+}
+
+#feature-1{
+    height: 95vh;
+    background-color: #121212;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 3.5vh;
+    overflow: hidden;
+    color: white;
+}
+
+#feature-2{
+    height: 95vh;
+    background-color: #212121;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.5vh;
+    overflow: hidden;
+    color: white;
+}
+
+#feature-3{
+    height: 95vh;
+    background-color: #121212;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.5vh;
+    overflow: hidden;
+    color: white;
+}

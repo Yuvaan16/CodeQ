@@ -5,69 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeQ</title>
+  <link rel="stylesheet" href="style.css">
 
-<style>
-  * {box-sizing: border-box;}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body { 
-  margin: 0;
-  font-family: Monospace;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-#nav{
-    background-color: black;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex: 1;
-    font-size: 3vh;
-    padding-top: .1vh;
-    padding-bottom: .1vh;
-    position: sticky;
-    top:0;
-    color: white;
-}
-
-#nav-ul{
-    margin-left: 30vw;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#nav-ul>li{
-    margin-right: 4vw;
-    padding: 0.3vh;
-    transition: 0.5s ease-in-out;
-}
-
-.nav-li a:hover {
-  color: white;
-}
-
-.nav-li a {
-  float: left;
-  color: grey;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 0px;
-  border-radius: 4px;
-}
-
-
-</style>
 </head>
 <body>
 
@@ -83,13 +22,59 @@ html{
         </ul>
     </nav>
 
-<style>
-op: 50;
-}
-</style>
-<h1 align="center">
-Home</h1>
+<section id="Home">
+    <h1 id="spec-head">Home</h1>
 
+      <div class="container">
+      <div class="container-child text">
+           <h2>Welcome to CodeQ!</h2>
+           <p>CodeQ is a group of great and enthusiastic coders who create constructive applications for you! We also have our pre-made applications which can be downloaded from the CodeQ store. Enjoy your time at CodeQ!</p>
+      </div>
+
+      <div class="container-child image">
+        <img src="CodeQ.JPG" alt="CodeQ" style="width:450;height:450px;">
+    </div>
+    </div>
+</section>
+
+    
+
+            <div id="feature-1">
+              <style>
+                * {
+                  box-sizing: border-box;
+                }
+
+                .row {
+                  display: flex;
+                }
+                /* Created two equal columns that sits next to each other */
+                .column {
+                  flex: 50%;
+                  padding: 5px;
+                }
+              </style>
+          <div class="row">
+           <div class="column">
+              <img src="android-phone-in-hand.png" alt="android-phone-in-hand" style="width:400px;height:400px;">
+          </div>
+            <div class="column">
+               <h2>Why Us!</h2>
+               <p>CodeQ is a great service for all because we make apps for daily life problems and our applications make life easy! If you need an app for you, tell us in the order application section. We also make our own apps which you can download from the Apps section.   Have a great time at CodeQ. 
+                 <br>Happy to Serve,
+                  <br>Team CodeQ
+               </p>
+            </div>
+          </div>
+
+
+          
+        <div id="feature-2">
+            <h2>Ultra HD Display</h2>
+        </div>
+        <div id="feature-3">
+            <h2>Stylus Support</h2>
+        </div>
 
 </body>
 </html>
